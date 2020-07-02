@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Bootstrap Query -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			console.log('Document-ready');		
+		});
+
+		$(function(){
+
+			$('#get').click(function(){
+				Get();
+
+			});
+			
+
+
+
+
+
+		});
+		function Get(){
+			var text = $('#textarea').val();  
+ 			console.log(text);
+		}
+		
+
+	</script>
+
+	
+<textarea id="textarea" rows="4" cols="50">
+My Textarea is a TextArea! 
+</textarea><br><br><br>
+<button id="get">Get</button>
+</body>

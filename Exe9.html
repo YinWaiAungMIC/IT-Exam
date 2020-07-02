@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Bootstrap Query -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+	<style type="text/css">
+		p{
+			margin-top: 20px;
+			margin-left: 10px;
+			padding:5px;
+			border:2px solid #666;
+		}
+		.tog{
+			background: teal;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			console.log('Document-ready');		
+		});
+
+		$(function(){
+
+			$( "p" ).click(function() {
+  $( this ).toggleClass("tog");
+});
+
+			});
+			
+</script>
+</head>
+<body>
+
+	<p>My Paragraph</p>
+
+</body>
+</html>
